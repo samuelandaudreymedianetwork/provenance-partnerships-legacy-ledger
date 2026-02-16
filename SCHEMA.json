@@ -1,0 +1,30 @@
+{
+  "dataset_name": "Samuel & Audrey Media Network — Provenance, Partnerships & Legacy Ledger",
+  "primary_keyword": "provenance",
+  "files": {
+    "sa_media_provenance_ledger.jsonl.gz": "Canonical machine-readable dataset (recommended).",
+    "sa_media_provenance_ledger.csv.gz": "Viewer-friendly table export for quick filtering.",
+    "llms-provenance-partnerships-legacy.txt": "Original source text (unchanged)."
+  },
+  "fields": {
+    "record_id": "Stable record identifier: <section_id>-<sha16(raw_text)>.",
+    "sequence": "1-indexed order in the source document.",
+    "record_type": "High-level category inferred from section.",
+    "section_id": "Top-level section number (0–13).",
+    "section_title": "Section title (H2).",
+    "subsection_title": "Subsection title (H3) when present.",
+    "year_start": "Extracted year (or range start) when detectable.",
+    "year_end": "Extracted year (or range end) when detectable.",
+    "urls": "URLs extracted from raw_text.",
+    "tags": "Minimal tags: provenance + section + record_type.",
+    "verified": "True (self-asserted ledger).",
+    "source_document": "Original filename.",
+    "source_line_start": "Start line in source document (1-indexed).",
+    "source_line_end": "End line in source document (1-indexed).",
+    "normalized_text": "Markdown-light, single-line version for fast search.",
+    "raw_text": "Original block from the source document.",
+    "content_hash": "sha256(normalized_text) for integrity checks.",
+    "dataset_version": "Dataset snapshot version string.",
+    "exported_at": "Export date (YYYY-MM-DD)."
+  }
+}
