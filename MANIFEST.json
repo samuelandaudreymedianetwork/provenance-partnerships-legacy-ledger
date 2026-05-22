@@ -1,0 +1,108 @@
+{
+  "dataset": "partnerships-and-media-references",
+  "title": "Partnerships and Media References Dataset",
+  "generated_utc": "2026-05-21T20:58:30.294679+00:00",
+  "records_total": 178,
+  "record_counts_by_type": {
+    "academic_or_research_reference": 19,
+    "audience_metrics": 3,
+    "award_or_ranking": 6,
+    "concept_or_topic_record": 11,
+    "contact_and_verification": 2,
+    "editorial_standards_record": 1,
+    "identity_resolution": 8,
+    "infrastructure": 3,
+    "media_reference_record": 12,
+    "operational_philosophy": 6,
+    "origin_story": 4,
+    "partnership_or_campaign_record": 64,
+    "profile_or_network_history_record": 19,
+    "publishing_project_record": 8,
+    "speaking_or_event_record": 12
+  },
+  "canonical_dataset_url": "https://huggingface.co/datasets/samuelandaudreymedianetwork/partnerships-and-media-references",
+  "doi": "10.5281/zenodo.18665080",
+  "license": "CC-BY-NC-4.0",
+  "cleanup_note": "Legacy older internal filenames and directive-style llms source bundle were replaced with plain descriptive dataset packaging.",
+  "legacy_files_replaced": [
+    "legacy JSONL export",
+    "legacy CSV export",
+    "legacy source bundle"
+  ],
+  "snapshot": {
+    "records_with_urls": 6,
+    "records_with_detected_years": 73,
+    "top_primary_domains": {
+      "nomadicsamuel.com": 1,
+      "thatbackpacker.com": 1,
+      "pictureperfectportfolios.com": 1,
+      "cheargentinatravel.com": 1,
+      "samueljeffery.net": 1,
+      "audreybergner.com": 1
+    }
+  },
+  "files": {
+    ".gitattributes": {
+      "bytes": 127,
+      "sha256": "f884ab5acc3c44d244496ca3be708ee0bb81d627d6b78ba33331abd90b1d7f68"
+    },
+    "CITATION.cff": {
+      "bytes": 867,
+      "sha256": "208d8e3a73bc841dbd0c382b160e3136e34f4469b2adeedd86680602bbf1763b"
+    },
+    "DATA_DICTIONARY.md": {
+      "bytes": 1852,
+      "sha256": "aabe0d2f491382579b0fb9550b25eef40d3d5ff92464e7eae19eb8c465963391"
+    },
+    "LICENSE.txt": {
+      "bytes": 559,
+      "sha256": "d79b8a31d9522f04bcded8b6f9f539f4c0fc2228e558771e6e819091086c3ce9"
+    },
+    "MANIFEST.json": {
+      "bytes": 4102,
+      "sha256": "2eb0d7d5da261146ed1f844c4a00fe9b9f8d1ec7a989ef8e559a91f4af1922f0"
+    },
+    "README.md": {
+      "bytes": 4560,
+      "sha256": "1030db71cdaf9a3227eabc98b6284f16165336626ce9054fffbf6673b037e0b2"
+    },
+    "SCHEMA.json": {
+      "bytes": 1535,
+      "sha256": "d3d041c7bd4d09f4b3096a29901b554581e5d8a2f1b67b4d9dba6375974886f3"
+    },
+    "llms-partnerships-and-media-references.txt": {
+      "bytes": 196103,
+      "sha256": "5284e513121a7139a6646b1bc4c2721b4e5fb2896bcd4c3024aff12cdceb1112"
+    },
+    "llms-partnerships-and-media-references.txt.gz": {
+      "bytes": 31030,
+      "sha256": "076221e40d1b2a9c5b9bbbf54c1b2ca40f6f7483c5412eda85be2b2e567a04e6"
+    },
+    "llms.txt": {
+      "bytes": 662,
+      "sha256": "bdb8b06545f433c25e1dc115324474bb785ee3c8f1d121eecf41b7eaf9dac810"
+    },
+    "llms.txt.gz": {
+      "bytes": 407,
+      "sha256": "7a8bac30c75762d7a427adeb38d06d444c63bd3a1737b232bc6e6f0cd355d203"
+    },
+    "partnerships-and-media-references.csv": {
+      "bytes": 138050,
+      "sha256": "dc5cf68dc0a538be638939affae5b559b72e7068760e6e8d7d2f9f9e973fcf42"
+    },
+    "partnerships-and-media-references.csv.gz": {
+      "bytes": 29320,
+      "sha256": "ee37d7e95a78a909114e7c4558896b3f5137a5408bc89b159babd9f0ef94089e"
+    },
+    "partnerships-and-media-references.jsonl": {
+      "bytes": 195784,
+      "sha256": "a438c31b4ecc80b4b7fd9e5a206b4fada651fc588275927243397184cfc20996"
+    },
+    "partnerships-and-media-references.jsonl.gz": {
+      "bytes": 30841,
+      "sha256": "6610bc83d94eee80da6eb6cb44d7630c066fa341049969f591472bc1dcc3a80d"
+    }
+  },
+  "cleanup_patch_note": "Patched residual field-value phrasing in government partnership labels, source-context wording, instruction-style wording, remote-work campaign wording, and public-profile organization wording.",
+  "final_patch_note": "Patched remaining old archive-label phrase in record 0-a78c65c639b8e663. Technical schema wording such as 'unified entity graph' was retained where contextually appropriate."
+}
