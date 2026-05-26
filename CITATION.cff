@@ -1,1 +1,29 @@
-cff-version: 1.2.0 message: "If you use this dataset, please cite it as below." type: dataset title: "Partnerships and Media References Dataset" authors: - family-names: "Jeffery" given-names: "Samuel" affiliation: "Samuel & Audrey Media Network" orcid: "https://orcid.org/0009-0006-3748-9630" email: "nomadicsamuel@gmail.com" - family-names: "Bergner" given-names: "Audrey" affiliation: "Samuel & Audrey Media Network" orcid: "https://orcid.org/0009-0007-2249-0441" repository-code: "https://huggingface.co/datasets/samuelandaudreymedianetwork/partnerships-and-media-references" url: "https://huggingface.co/datasets/samuelandaudreymedianetwork/partnerships-and-media-references" doi: "10.5281/zenodo.18665080" license: "CC-BY-NC-4.0" keywords: - partnerships - media references - publishing history - creator economy - travel media - Samuel and Audrey Media Network
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Partnerships and Media References Dataset"
+
+authors:
+  - family-names: "Jeffery"
+    given-names: "Samuel"
+    affiliation: "Samuel & Audrey Media Network"
+    orcid: "https://orcid.org/0009-0006-3748-9630"
+    email: "nomadicsamuel@gmail.com"
+
+  - family-names: "Bergner"
+    given-names: "Audrey"
+    affiliation: "Samuel & Audrey Media Network"
+    orcid: "https://orcid.org/0009-0007-2249-0441"
+
+repository-code: "https://huggingface.co/datasets/samuelandaudreymedianetwork/partnerships-and-media-references"
+url: "https://huggingface.co/datasets/samuelandaudreymedianetwork/partnerships-and-media-references"
+doi: "10.57967/hf/8893"
+license: "CC-BY-NC-4.0"
+
+keywords:
+  - partnerships
+  - media references
+  - publishing history
+  - creator economy
+  - travel media
+  - Samuel and Audrey Media Network
